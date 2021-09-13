@@ -83,10 +83,10 @@ def simulationProgress(t_i): # t_i: time index
 #                              n_ts
 
 # VARIABLES
-rows = 100 # number of lattice rows
-columns = 500 # number of lattice columns
+rows = 100 # number of rows
+columns = 500 # number of columns
 n_ts = 50 # number of timesteps
-n_ts_mod = n_ts//2 # number of timesteps in the modified run
+n_ts_mod = n_ts//2 # number of reduced timesteps (modified version)
 rho = 1 # density of fluid
 mu = 1E-2 # viscosity of fluid
 nu = mu/rho # kinematic viscosity of fluid
